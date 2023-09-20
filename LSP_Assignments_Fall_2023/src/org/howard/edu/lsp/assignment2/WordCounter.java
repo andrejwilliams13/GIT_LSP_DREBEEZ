@@ -12,8 +12,8 @@ public class WordCounter {
 		try {
 			String filepath = filename.readToString("main/java/resource/words.txt");
 			System.out.println(filepath);
-			//String[] seperated = filepath.toLowerCase().replaceAll("[^a-zA-z ]", "").split(" ");
-			String[] seperated = filepath.toLowerCase().split(" ");
+			String[] seperated = filepath.toLowerCase().replaceAll("[^a-zA-z ]", "").split(" ");
+			//String[] seperated = filepath.toLowerCase().split(" ");
 			for (int x = 0; x < seperated.length; x++) {
 				if (seperated[x].length() > 3) {
 					if (hashmap.get(seperated[x]) == null) {
