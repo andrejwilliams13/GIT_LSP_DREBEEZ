@@ -1,5 +1,4 @@
 // Andre Williams Assignment 5
-
 package org.howard.edu.lsp.assignment5;
 
 import java.util.ArrayList;
